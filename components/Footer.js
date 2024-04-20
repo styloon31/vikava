@@ -96,10 +96,22 @@ export default function Footer() {
           <p className="pt-4">G1, Site b, Surajpur industrial<br /> area, Nicco chowk Dadri road,<br /> Greater Noida 201306, UP</p>
         </div>
       </div>
+        <div className=" lg:hidden flex flex-col items-center">
+            <h2 className={`${barlow.className} font-[18px]`}>Connect with us</h2>
+            <h2 className={`${poppins.className} font-[16px] pt-4`}>info@vikavalabs.com</h2>
+        </div>
+        <div className=" lg:hidden flex flex-col items-center pt-4">
+            <h2 className={`${barlow.className} font-[18px]`}>&#169; Vikava Labs</h2>
+            <h2 className={`${inter.className} text-center font-[16px] pt-4`}>G1, Site b,<br /> Surajpur, Greater<br /> Noida, UP, India<br/> 201306.</h2>
+        </div>
       <div>
-        <h2>Newletter</h2>
+        <h2 className="pt-4">Newletter</h2>
         <input type="text" placeholder="Email id" className="placeholder:bg-[#3C3936] placeholder:text-black  border-white" />
-
+      </div>
+      <div className="w-full flex items-center justify-center pt-6 lg:items-end lg:justify-end">
+        <div className="bg-[#D5DEC9] w-fit p-5 ">
+            <h2 className= {`${inter.className}  font-[14px] lg:font-[18px] text-[#7D7D7D]`}>Have a query? Reach Us</h2>
+        </div>
       </div>
     </section>
   );
