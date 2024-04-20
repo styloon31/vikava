@@ -21,12 +21,14 @@ const About_Section8 = ({ progress, range, targetScale }) => {
       <div className="bg-gray-600/60 @apply  flex justify-between relative h-screen w-full transform-origin-top">
       <div className="flex items-end w-[15%] h-full">
         <Image
+            alt=""
             src={'/services/a6.jpeg'}
             width={500} height={500}
             className="hidden lg:block w-full h-[50%] object-cover" ></Image>
       </div>
       <div className="flex w-[25%] h-full">
         <Image
+            alt=""
             src={'/services/a7.jpeg'}
             width={500} height={500}
             className="hidden lg:block w-full h-[50%] object-cover" ></Image>

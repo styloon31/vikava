@@ -26,6 +26,7 @@ const About_Section3 = ({ progress, range, targetScale }) => {
           className=" flex min-h-screen items-center w-full px-5 lg:px-20 "
         >
             <Image
+            alt=""
             src={'/services/a2.jpeg'}
             width={500} height={500}
             className="hidden lg:block lg:w-[35%] h-full object-cover"></Image>

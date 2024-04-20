@@ -20,8 +20,9 @@ const About_Section5 = ({ progress, range, targetScale }) => {
     >
       <div className="bg-gray-600/60 @apply  flex flex-col relative h-screen w-full transform-origin-top">
       <Image
+            alt=""
             src={'/services/a4.jpeg'}
-            width={500} height={500}
+            width={5000} height={5000}
             className="hidden lg:block lg:w-full h-[65%] object-cover" ></Image>
         <motion.section
           style={{

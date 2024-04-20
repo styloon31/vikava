@@ -37,6 +37,7 @@ const About_Section9 = ({ progress, range, targetScale }) => {
                 </p>                    
                 </div>
                 <Image
+                alt=""
                 src={'/services/a8.jpeg'}
                 width={500} height={500}
                 className="hidden lg:block w-[40%]  h-screen object-cover" ></Image>
